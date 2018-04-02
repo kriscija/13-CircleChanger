@@ -4,8 +4,8 @@ A problem in which to practice:
   -- using SEQUENCES
 
 Authors: Valerie Galluzzi, David Mutchler, Dave Fisher, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         their colleagues and Joe Krisciunas.
+"""  # Done
 
 import rosegraphics as rg
 import random
@@ -54,6 +54,11 @@ class CircleChanger(object):
      """
 
     def __init__(self, x, y, radius, fill_color, colors):
+        self.x = x
+        self.y = y
+        self.radius = radius
+        self.fill_color = fill_color
+        self.colors = colors
         """
         What comes in:
           -- self
